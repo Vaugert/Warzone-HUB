@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+
+header {
+    justify-content:flex-end;
+    display: flex;
+    align-items: center;
+    font-family: "Oswaldo", sans-serif;
+    background-color: rgb(19, 18, 18);
+    min-height: 120px;
+
+}
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    font-size: 40px;
+    padding-left: 25px;
+    padding-top: 5px;
+    color: rgb(218, 85, 85);
+    font-family: "Oswaldo", sans-serif;
+
+    
+}
+
+
+
+
+.nav-links li {
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px 20px;
+    
+    
+}
+
+.nav-links li a {
+    color:rgb(218, 85, 85);
+    font-family: "Oswaldo", sans-serif;
+}
+
+.nav-links li a:hover {
+    color:white ;
+
+}
