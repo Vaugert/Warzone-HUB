@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+body{
+    background-color: rgb(36, 36, 36);
+    margin: 0;
+    
+}
+
 
 
 header {
@@ -9,21 +15,29 @@ header {
     font-family: "Oswaldo", sans-serif;
     background-color: rgb(19, 18, 18);
     min-height: 120px;
+    min-width: 100%;
 
 }
 
+h1 {
+    font-size: 3rem;
+    margin: 0 auto;
+    color: rgb(204, 204, 204) ;
+    
+    
+}
+
 .logo {
-    cursor: pointer;
+    
     margin-right: auto;
     font-size: 40px;
     padding-left: 25px;
     padding-top: 5px;
-    color: rgb(218, 85, 85);
+    color: rgb(211, 39, 39);
     font-family: "Oswaldo", sans-serif;
 
     
 }
-
 
 
 
@@ -36,7 +50,7 @@ header {
 }
 
 .nav-links li a {
-    color:rgb(218, 85, 85);
+    color:rgb(211, 39, 39);
     font-family: "Oswaldo", sans-serif;
 }
 
@@ -44,3 +58,62 @@ header {
     color:white ;
 
 }
+
+.top-section{
+    background-image: url(/images/Warzone\ 2.jpg);
+    position: relative;
+    
+
+    
+
+}
+
+.background-color-img {
+    width: 100%;
+    height: 100%;
+    background:black ;
+    opacity: 0.7;
+    position: absolute;
+    
+    
+}
+
+table {
+    width: 800px;
+   
+    
+    color: rgb(216, 215, 215);
+    font-size: 20px;
+    z-index: 1;
+    position: relative;
+    margin-left: 40px;
+    
+
+    
+    
+    
+    
+
+}
+
+th,  {
+    text-align: left;
+}
+
+table, th , td, caption {
+    border: 1px solid rgb(104, 104, 104);
+    border-collapse: collapse;
+}
+
+th , td {
+    padding: 20px;
+}
+
+caption {
+    font-size: 30px;
+}
+
+
+
+
+
