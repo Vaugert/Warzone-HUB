@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body{
-    background-color: rgb(36, 36, 36);
+    background-color:#7FDBFF;
     margin: 0;
     
+    
+}
+.body2{
+    background-color:#7FDBFF;
 }
 
 
@@ -20,9 +30,12 @@ header {
 }
 
 h1 {
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
     font-size: 3rem;
-    margin: 0 auto;
     color: rgb(204, 204, 204) ;
+
     
     
 }
@@ -33,7 +46,7 @@ h1 {
     font-size: 40px;
     padding-left: 25px;
     padding-top: 5px;
-    color: rgb(211, 39, 39);
+    color: #7FDBFF;
     font-family: "Oswaldo", sans-serif;
 
     
@@ -50,7 +63,7 @@ h1 {
 }
 
 .nav-links li a {
-    color:rgb(211, 39, 39);
+    color:#7FDBFF;
     font-family: "Oswaldo", sans-serif;
 }
 
@@ -59,10 +72,38 @@ h1 {
 
 }
 
-.top-section{
-    background-image: url(/images/Warzone\ 2.jpg);
+/*-------------------Headlines*/
+
+.welcome{
+    display: flex;
+    color: black;
+    
+    margin-top:1%;
+    justify-content: center;
+    font-size: 60px
+}
+
+.Rebirth {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 30px;
+    
+    
+
+    
+
+}
+
+.table-wrapper{
+    display: flex;
+    background-image: url(/images/call-of-duty13.jpg);
     position: relative;
-    height: 850px;
+    background-size: 50%;
+    margin-top: 2%;
+    
+    
+    
     
     
 
@@ -74,21 +115,26 @@ h1 {
     width: 100%;
     height: 100%;
     background:black ;
-    opacity: 0.5;
+    opacity: 0.7;
     position: absolute;
     
     
 }
 
 table {
-    width: 800px;
+    display: flex;
+    
    
     
     color:aliceblue;
-    font-size: 20px;
+    font-size: 25px;
     z-index: 1;
     position: relative;
-    margin-left: 40px;
+    margin: 0 auto;
+    
+    
+    
+    
     
     
 
@@ -109,61 +155,95 @@ table, th , td, caption {
 }
 
 th , td {
-    padding: 20px;
+    padding: 13px;
+    background-color: black;
+    opacity: .9;
 }
 
-caption {
-    font-size: 30px;
-}
+/*------Community page*/
 
 .mid-section {
+    margin-top: 5%;
+    
+    
+    
+}
+
+.mid-section h1 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
+.mid-container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    position: relative;
+    height: 50%;
+    
+}
+
+.mid-container .mid-content {
+   
+    margin: 3px;
+    margin-bottom: 40px;
+    width: 430px;
+    line-height: 50px ;
+    font-size: 25px;
+    position: relative;
+    
+    color: white;
+    padding: 50px;
+    border-radius: 30px; 
+    
+  
+    z-index: 2;
     
     
-    background-image: url(/images/3734358.jpg);
-    
-    
-    margin-top: 10px;
-    height: 850px;
-    color: rgb(211, 39, 39);
-    width: 100%;
-    
+}
+.mid-container {
+    background-image: url(/images/call-of-duty13.jpg);
+    background-position: 70% 50%;
 
 }
 
-.teammates {
-    font-size: 1.8rem;
-    flex-grow: 1;
-    order: 1;
+.mid-content{
     
+}
     
+.community {
+    color:#7FDBFF ;
+    font-size: 30px;
    
     
 }
 
-.community {
-    font-size: 1.8rem;
-    flex-grow: 1;
-    order: 2;
-    text-align: right;
-    
-    
-
+.teammates {
+    color: #7FDBFF;
+    font-size: 30px;
+    z-index: ;
 }
 
-.hr-tm {
-    width: 50%;
+.background-color-img-2{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: .6;
+    position: absolute;
+    z-index: 1;
     
-
 }
-
-.hr-co{
-    width: 50%;
-
+.mid-paragraph {
+    z-index: 2;
 }
 
 
+
+  
+    
+    
+   
 
