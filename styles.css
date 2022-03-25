@@ -78,7 +78,7 @@ h1 {
     display: flex;
     color: black;
     
-    margin-top:1%;
+    margin-top:0.5%;
     justify-content: center;
     font-size: 60px
 }
@@ -87,7 +87,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin-top: 5%;
-    font-size: 30px;
+    font-size: 45px;
     
     
 
@@ -101,15 +101,11 @@ h1 {
     position: relative;
     background-size: 50%;
     margin-top: 2%;
-    
-    
-    
-    
-    
-
-    
 
 }
+
+
+
 
 .background-color-img {
     width: 100%;
@@ -126,11 +122,12 @@ table {
     
    
     
-    color:aliceblue;
-    font-size: 25px;
+    color:white;
+    font-size: 20px;
     z-index: 1;
     position: relative;
-    margin: 0 auto;
+    
+    
     
     
     
@@ -150,20 +147,21 @@ th,  {
 }
 
 table, th , td, caption {
-    border: 1px solid rgb(104, 104, 104);
+    border: 1px solid white;
     border-collapse: collapse;
+    
 }
 
 th , td {
     padding: 13px;
     background-color: black;
-    opacity: .9;
+    
 }
 
 /*------Community page*/
 
 .mid-section {
-    margin-top: 5%;
+    margin-top: 3%;
     
     
     
@@ -184,6 +182,13 @@ th , td {
     position: relative;
     height: 50%;
     
+}
+
+.mid-h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+
 }
 
 .mid-container .mid-content {
@@ -207,6 +212,7 @@ th , td {
 .mid-container {
     background-image: url(/images/call-of-duty13.jpg);
     background-position: 70% 50%;
+    
 
 }
 
@@ -216,7 +222,7 @@ th , td {
     
 .community {
     color:#7FDBFF ;
-    font-size: 30px;
+    font-size:40px;
    
     
 }
@@ -240,7 +246,73 @@ th , td {
     z-index: 2;
 }
 
+form {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.199);
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 20px;
+    
+    margin-bottom: 50px;
+    margin-top: 50px;
 
+    
+   
+
+}
+
+form h2 {
+    color: black;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+    
+
+
+.div-inputs{ 
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+
+input {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+    border: none;
+    border-bottom: 3px solid white;
+    background-color: rgba(255, 255, 255, 0.89);
+    
+    
+    
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 4px 0 0 black;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+    
+}
+button:hover {
+    color:#ffffff ;
+    border: white;
+    box-shadow: #ffffff 0px 3px 8px;
+    background-color: black;
+    
+
+}
 
   
     
