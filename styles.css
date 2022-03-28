@@ -13,9 +13,7 @@ body{
     
     
 }
-.body2{
-    background-color:#7FDBFF;
-}
+
 
 
 
@@ -376,6 +374,14 @@ ul {
 
 #contact-email{
     font-size: 1.5rem;
+}
+
+#social-links {
+    display: inline-block;
+    line-height: 40px;
+    
+    
+
 }
 
 
