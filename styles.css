@@ -12,6 +12,7 @@ body{
     min-height: 100vh;
     
     
+    
 }
 
 
@@ -116,8 +117,11 @@ h1 {
     
 }
 
+/*--------------Table----*/
+
 table {
     display: flex;
+
     
    
     
@@ -125,6 +129,8 @@ table {
     font-size: 20px;
     z-index: 1;
     position: relative;
+    margin: 0 auto;
+    
     
     
     
@@ -146,14 +152,19 @@ th,  {
 }
 
 table, th , td, caption {
-    border: 1px solid white;
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(129, 129, 129);
     border-collapse: collapse;
+
     
 }
 
 th , td {
     padding: 13px;
-    background-color: black;
+    background-color: rgba(41, 41, 41, 0);
+    
     
 }
 
@@ -190,11 +201,16 @@ th , td {
 
 }
 
-.mid-container .mid-content {
+.mid-paragraph {
+    
+}
+
+.mid-content {
+    
    
     margin: 3px;
     margin-bottom: 40px;
-    width: 430px;
+    width: 300px;
     line-height: 50px ;
     font-size: 25px;
     position: relative;
@@ -215,9 +231,7 @@ th , td {
 
 }
 
-.mid-content{
-    
-}
+
     
 .community {
     color:#7FDBFF ;
@@ -323,6 +337,7 @@ footer {
     padding: 20px;
     position: sticky;
     top: 100%;
+    margin-top: 150px;
     
 }
 
@@ -383,6 +398,279 @@ ul {
     
 
 }
+
+
+/*media queries*/
+
+
+@media  screen and (min-width: 1px) {
+
+    
+
+    header h1 {
+        
+        display: none;
+    }
+
+    .logo {
+        font-size: 15px;
+        
+        
+        
+    }
+    .nav-links li {
+        font-size: 10px;
+        padding: 1px;
+        
+        
+    }
+
+    
+
+    .mid-content {
+        padding: 3px;
+        font-size: 15px;
+        height: 1200px;
+        max-width: 100%;
+        
+        
+    }
+    
+
+    .mid-section {
+        
+    }
+
+    .community {
+        font-size: 20px;
+    }
+
+    .mid-section h1 {
+        font-size: 18px;
+    }
+
+    .mid-h2 {
+        font-size: 15px;
+    }
+
+    #contact-email {
+        font-size: 18px;
+    }
+
+    .Rebirth {
+        font-size: 28px;
+    }
+    
+
+
+
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+
+
+@media screen and (min-width: 450px) {
+    header h1 {
+        
+        display: none;
+    }
+
+    .logo {
+        font-size: 20px;
+    }
+    .nav-links li {
+        font-size: 17px;
+        padding: 3px;
+    
+        
+    }
+
+    .mid-content {
+        padding: 3px;
+        font-size: 15px;
+        height: 820px;
+        max-width: 100%;
+        
+    }
+
+    .community {
+        font-size: 20px;
+    }
+
+    .mid-section h1 {
+        font-size: 30px;
+    }
+
+    .mid-h2 {
+        font-size: 25px;
+    }
+
+    
+
+}
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+@media screen and (min-width: 600px) {
+    header h1 {
+        
+        display: none;
+    }
+
+    .logo {
+        font-size: 30px;
+    }
+    .nav-links li {
+        font-size: 25px;
+
+    }
+
+    .nav-links li {
+        padding: 5px 20px;
+    }
+
+    .mid-content {
+        padding: 3px;
+        font-size: 20px;
+        height: 800px;
+        max-width: 100%;
+        
+    }
+
+    .community {
+        font-size: 30px;
+    }
+
+    .Rebirth {
+        font-size: 45px;
+    }
+
+
+
+    
+    
+    
+
+    
+
+
+
+}
+/* Medium devices (landscape tablets, 768px and up) */
+
+
+@media screen and (min-width: 768px) {
+    header h1 {
+        display: none;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+    .nav-links li {
+        font-size: 30px;
+    }
+    
+    .nav-links li {
+        padding: 5px 20px;
+    }
+    
+    
+
+    .mid-content {
+        padding: 10px;
+        font-size: 20px;
+        height: 800px;
+       
+        
+    }
+
+    .community {
+        font-size: 40px;
+    }
+
+    
+
+    
+
+}
+
+
+
+/* Large devices (laptops/desktops, 992px and down) */
+
+
+@media  (min-width: 900px)  {
+    header h1 {
+        font-size:1.5rem ;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+    .nav-links li {
+        font-size: 30px;
+    } 
+
+    .footer-column {
+        width: 100%;
+    }
+    .mid-content {
+        width: 100%;
+    }
+    .nav-links li {
+        padding: 5px 20px;
+    }
+
+    .community {
+        font-size: 40px;
+    }
+
+    
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and down) */
+
+@media  (min-width: 1200px)  {
+    header h1 {
+        font-size:3rem ;
+    }
+
+    .logo {
+        font-size: 40px;
+    }
+    .nav-links li {
+        font-size: 30px;
+    } 
+
+    .nav-links li {
+        padding: 5px 20px;
+    }
+
+    .mid-paragraph {
+        font-size: 25px;
+    }
+
+    .mid-content{
+        height: 450px;
+        
+    }
+    
+
+
+}
+    
+
 
 
 
