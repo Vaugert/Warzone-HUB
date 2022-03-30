@@ -97,7 +97,7 @@ h1 {
 
 .table-wrapper{
     display: flex;
-    background-image: url(/images/call-of-duty13.jpg);
+    background-image: url(images/call-of-duty13.jpg);
     position: relative;
     background-size: 50%;
     margin-top: 2%;
@@ -225,7 +225,7 @@ th , td {
     
 }
 .mid-container {
-    background-image: url(/images/call-of-duty13.jpg);
+    background-image: url(images/call-of-duty13.jpg);
     background-position: 70% 50%;
     
 
