@@ -45,7 +45,9 @@ Stack overflow have been my best friend to introduce myself to flexbox which mad
 Also Kevin Powell on youtube has been great with his Flexbox tutorials.
 
 # deployment 
-The page was deployed to Github pages
+The page was deployed to Github pages 
+Navigate to settings, Scroll down until you find Github pages,
+go to their dedicated tab, Choose main branch and then save.
 
 
 
